@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            color:blue;
+        }
+        #box2{
+            box-sizing: border-box;
+            background: #760404;
+            min-width: 60px;
+            min-height: 40px;
+            border: 2px solid black;
+            padding: 5px;
+        }
+        #box1{
+            box-sizing: content-box;
+            background: #b26868;
+            min-width: 60px;
+            min-height: 40px;
+            border: 2px solid black;
+            padding:5px ;
+            margin: 20px;
+        }
+        #box12{
+            box-sizing: content-box;
+            background: #b26868;
+            min-width: 60px;
+            min-height: 40px;
+            border: 2px solid black;
+            margin: 20px ;
+            /*padding:5px ;*/
+        }
+        div{
+           display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <p id="one" style="color: aquamarine;background-color: #b26868; ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem quaerat iure maxime fugiat enim voluptatem ipsam. Inventore reprehenderit provident beatae aspernatur, at accusamus ab iusto culpa labore? Illo, accusantium.</p>
+    <p style="background-color: blue; border:4px solid black; width:50%; margin:20px;">Hello</p>
+    </div>
+    <p style="background-color: blue;">Hello</p>
+    <h1 id="box1">
+        content-box
+    </h1>
+    <h1 id="box12">
+        content-box
+    </h1>
+    <h1 id="box2">
+        border-box
+    </h1>
+    <button>
+        one
+    </button>
+    <button>
+        two
+    </button>
+</body>
+</html>

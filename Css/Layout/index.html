@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+        }
+        #mainbox{
+            display: flex;
+            /*flex-direction: row; */ 
+            align-items: stretch;  
+            justify-content: center;
+            align-content: center;
+        }
+        #mainbox1{
+            display: flex;
+            /*flex-direction: row; */ 
+            /*align-items: center; */ 
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+        <button class="box">One</button>
+        <button class="box">Two</button>
+        <button class="box">Three</button>
+        <p style="background-color: aquamarine;">Four</p>
+        <h1>Five</h1>
+    </div>
+    <div id="mainbox1">
+        <button class="box">One</button>
+        <button class="box">Two</button>
+        <button class="box">Three</button>
+        <p style="background-color: aquamarine;">Four</p>
+        <h1>Five</h1>
+    </div>
+    <div style="display: flex; background-color: #f52a2a; border:2px solid yellow;box-sizing:border-box ;">
+        <div class="box">One</div>
+        <div class="box">Two</div>
+        <div class="box">Three</div>
+        <div style="display: flex;flex-direction: column;">
+            <div class="box">One</div>
+        <div class="box">Two</div>
+        <div class="box">Three</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--Layout are 2 types :- Flex & Grid-->
+<!--Directions are 2 types :- main axis & cross axis-->
+<!--row--main axis(left - right)& cross axis(top - bottom)-->
+<!--col--main axis(top - bottom)& cross axis(left - right)-->
+
