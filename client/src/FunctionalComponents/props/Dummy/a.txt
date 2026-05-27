@@ -1,0 +1,16 @@
+A - B,C
+B - D
+C - E,F
+D - G,H
+E -
+F -
+G - 
+H - I
+I - 
+
+
+              A
+           B     C
+        D     E     F
+    G      H     
+              I
