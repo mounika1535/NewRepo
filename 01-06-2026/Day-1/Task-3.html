@@ -1,0 +1,151 @@
+<!-- 1)Create webpages using audio and video tags. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Audio Tag -->
+    <audio controls autoplay muted>
+        <source src="Audio.mp3" type="audio/mpeg">
+    </audio>
+    <hr>
+
+    <!-- Video Tag -->
+    <video controls width="320" height="240" autoplay muted loop poster preload>
+        <source src="Video.mp4" type="video/mp4">
+    </video>
+    <hr>
+</body>
+</html>
+
+<!-- 2)Design sample HTML tables. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  /* border-radius: 10px; */
+  /* border-style: dashed; */
+  border-color: #96D4D4;
+}
+/* td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+} */
+tr:hover {
+    background-color: #42d6d6;
+}
+</style>
+<body>
+    <table border="1">
+        <caption>Person Details</caption>
+        <tr>
+            <th>Name</th>
+            <!-- <th colspan="2">Name</th> -->
+            <!-- <th rowspan="2">Name</th> -->
+            <th>company</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Mounika</td>
+            <td>NYB</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>Vineetha</td>
+            <td>HCL</td>
+            <td>vijayawada</td>
+        </tr>
+        <tr>
+            <td>Harshitha</td>
+            <td>Amdocs</td>
+            <td>Gurgon</td>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>
+
+<!-- Build basic registration forms using HTML forms. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>First Name:</label>
+        <input type="text">
+        <br>
+        <label>Last Name:</label>
+        <input type="text">
+        <br>
+        <label>Password:</label>
+        <input type="password">
+        <br>
+        <input type="submit">
+    </form>
+    <hr>
+</body>
+</html>
+
+<!-- Practice form elements and validations. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Registration:</legend>
+          <label>First Name:</label><br>
+          <input type="text"><br>
+          <label>Last Name:</label><br>
+          <input type="text"><br>
+          <label>Choose a Course:</label>
+          <select>
+           <option value="Java">Java</option>
+           <option value="Python">Python</option>
+           <option value="C#">C#</option>
+           <option value="HTML">HTML</option>
+          </select><br>
+          <textarea rows="10" cols="30"></textarea><br>
+          <button type="button">Click Me!</button><br>
+          <label>Passed out year:</label>
+          <input list="POY">
+          <datalist id="POY">
+            <option value="2023">
+            <option value="2024">
+            <option value="2025">
+          </datalist><br>
+          <label>Password:</label>
+          <input type="password"><br>
+          <input type="Submit">
+          <input type="Reset"><br>
+          <input type="radio">
+          <label>Male</label><br>
+          <input type="radio">
+          <label>Female</label><br>
+          <input type="checkbox">
+          <label>Terms and Conditions</label><br>
+          <input type="date"><br>
+          <input type="file"><br>
+          <input type="email" placeholder="@gmail.com"><br>
+        </fieldset>
+    </form>
+
+</body>
+</html>
