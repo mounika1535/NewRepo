@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label id="number">Enter Number:</label>
+    <input type="number" id="marks4">
+    <button onclick="calculategrade()">Submit</button>
+    <script>
+        function calculategrade(){
+            let marks4=document.getElementById("marks4").value;
+            if(marks4<35 || marks4>100)
+            {
+                console.log("Fail");
+            }
+            else if(marks4>=90)
+            {
+                console.log("Grade A");
+            }
+            else if(marks4>=75)
+            {
+                console.log("Grade B");
+            }
+            else if(marks4>=60)
+            {
+                console.log("Grade C")
+            }
+            else if(marks4>=40);
+            {
+                console.log("Grade D");
+            }
+        }
+    </script>
+    </button>
+</body>
+</html>
